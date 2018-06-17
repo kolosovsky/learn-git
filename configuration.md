@@ -34,23 +34,3 @@ git c --list
 ```
 git config --global alias.gg '!git add .; git commit' 
 ```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
