@@ -11,12 +11,23 @@ git branch --list
 ```
 
 ```
-git branch 'feature'
+git branch <branchname>
 # create new branch
 ```
 
 ```
-git checkout feature
+git checkout <branchname>
 # switch branch
 ```
+
+```
+git branch master -f <commit>
+# make a branch point at a specific commit
+```
+
+```
+git branch master -f <commit>
+# make a branch point at a specific commit
+```
+
 
