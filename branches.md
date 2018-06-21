@@ -30,4 +30,3 @@ git branch master -f <commit>
 # make a branch point at a specific commit
 ```
 
-

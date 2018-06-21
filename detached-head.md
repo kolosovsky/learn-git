@@ -12,3 +12,7 @@ git checkout <commit>
 # local modifications to the files in the working tree are kept
 # the most useful thing you can do with it is explore an older state of a repository
 ```
+
+Return from detached HEAD state to your branch
+
+```git checkout -``` or ```git checkout <branchname>```
