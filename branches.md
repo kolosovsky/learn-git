@@ -21,6 +21,11 @@ git checkout <branchname>
 ```
 
 ```
+git branch -d feature
+# delete a branch. the branch must be fully merged in its upstream branch, or in HEAD
+```
+
+```
 git branch <branchname> -f <commit>
 # make a branch point at a specific commit
 ```
@@ -55,4 +60,11 @@ git show HEAD~2:README.MD
 ```
 git show :/major fix
 # show the contents of the README.MD as they were current in the HEAD~2
+``` 
+
 ```
+git merge fix
+# join two or more development histories together
+```
+**fast-forward merge**: the HEAD (along with the index) is updated to point at the named commit, without creating an extra merge commit
+
