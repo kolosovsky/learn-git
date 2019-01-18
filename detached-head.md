@@ -4,7 +4,7 @@ Meanwhile, each branch refers to a specific commit.
 
 **Detached head** means simply that HEAD refers to a specific commit, as opposed to referring to a named branch.
 
-If you crate a commit in this state nothing will refer to this commit. 
+If you create a commit in this state nothing will refer to this commit. 
 
 ```
 git checkout <commit>
